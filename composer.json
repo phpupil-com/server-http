@@ -1,0 +1,26 @@
+{
+  "name": "phpupil-com/server-http",
+  "description": "PHPupil HTTP Server",
+  "version": "v0.0.1",
+  "authors": [
+    {
+      "name": "吴跃忠",
+      "email": "study@phpupil.com",
+      "homepage": "http://phpupil.com/"
+    }
+  ],
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PHPupil\\Framework\\Server\\": "src/"
+    }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/phpupil-com/server-http"
+    }
+  ]
+}
